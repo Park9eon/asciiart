@@ -1,0 +1,39 @@
+<component name="libraryTable">
+  <library name="24.4">
+    <CLASSES>
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/google_play_services/samples/analytics/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/google_play_services/samples/auth/gau/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/google_play_services/samples/auth/suw/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/google_play_services/samples/cast/democastplayer/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/google_play_services/samples/cast/tictactoe/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/google_play_services/samples/drive/conflictdemo/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/google_play_services/samples/drive/demos/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/google_play_services/samples/drive/playground/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/google_play_services/samples/drive/quickeditor/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/google_play_services/samples/maps/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/google_play_services/samples/panorama/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/google_play_services/samples/tagmanager/cuteanimals/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/google_play_services/samples/tagmanager/helloworld/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/google_play_services/samples/unified/ActivityDemo/app/src/main/java" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/google_play_services/samples/wallet/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/market_apk_expansion/downloader_library/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/market_apk_expansion/downloader_sample/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/market_apk_expansion/zip_file/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/market_licensing/library/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/market_licensing/sample/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/market_licensing/test/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/play_billing/samples/TrivialDrive/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/webdriver/SimpleApp/gen" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/webdriver/SimpleApp/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/webdriver/TestAnAndroidWebApp/gen" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/extras/google/webdriver/TestAnAndroidWebApp/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/tools/apps/SdkController/src" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/tools/proguard/examples/annotations/examples" />
+      <root url="file:///usr/local/Cellar/android-sdk/24.4.1_1/tools/proguard/examples/annotations/src" />
+    </SOURCES>
+  </library>
+</component>
