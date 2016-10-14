@@ -11,16 +11,19 @@ import javax.imageio.ImageIO
  */
 fun main(vararg args: String) {
     try {
-        val out = BufferedWriter(FileWriter("profile.txt"))
+        val out = BufferedWriter(FileWriter("profile.html"))
         val img = ImageIO.read(File("image.jpg"))// args[1]))
+        out.write("<table style='width:100%;height:100%'>")
         for (y in 0..img.height - 1) {
+            out.write("<tr>")
             for (x in 0..img.width - 1) {
                 val rgb = img.getRGB(x, y)
                 // img.setRGB(x, y, gray)
-                out.write(colorToChar(rgb).toString())
+                out.write(colorToHtml(rgb))
             }
-            out.newLine()
+            out.write("</tr>")
         }
+        out.write("</table>")
         out.close()
         // saveImage(img)
     } catch (e: FileNotFoundException) {
@@ -58,9 +61,24 @@ fun colorToChar(rgb: Int): Char {
     } else { '@' }
 }
 
-fun saveTextFile() {
-
+fun colorToHtml(rgb: Int): String {
+    val color = Color(rgb)
+    val red = color.red
+    val green = color.green
+    val blue = color.blue
+    val g = (red + green + blue) / 3
+    val char = if (g >= 230.0) { "&nbsp;"
+    } else if (g >= 200.0) { "."
+    } else if (g >= 180.0) { "*"
+    } else if (g >= 160.0) { ":"
+    } else if (g >= 130.0) { "o"
+    } else if (g >= 100.0) { "&"
+    } else if (g >= 70.0) { "8"
+    } else if (g >= 50.0) { "#"
+    } else { "@" }
+    return "<th style='color:rgb($red,$green,$blue);'>$char</th>".format(color)
 }
+
 
 fun saveImage(bufferedImage: BufferedImage) {
     val outputFile = File("newImage${"%.2f".format(Math.random())}.png")
