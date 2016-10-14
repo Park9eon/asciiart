@@ -11,9 +11,9 @@ import javax.imageio.ImageIO
  */
 fun main(vararg args: String) {
     try {
-        val out = BufferedWriter(FileWriter("profile.html"))
+        val out = BufferedWriter(FileWriter("result.html"))
         val img = ImageIO.read(File("image.jpg"))// args[1]))
-        out.write("<table style='width:100%;height:100%'>")
+        out.write("<table>")
         for (y in 0..img.height - 1) {
             out.write("<tr>")
             for (x in 0..img.width - 1) {
@@ -76,7 +76,7 @@ fun colorToHtml(rgb: Int): String {
     } else if (g >= 70.0) { "8"
     } else if (g >= 50.0) { "#"
     } else { "@" }
-    return "<th style='color:rgb($red,$green,$blue);'>$char</th>".format(color)
+    return "<th style='color:rgb($red,$green,$blue); font-size: 0.001em; padding: 0;'>$char</th>".format(color)
 }
 
 
