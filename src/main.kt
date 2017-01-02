@@ -11,9 +11,9 @@ import javax.imageio.ImageIO
  */
 fun main(vararg args: String) {
     try {
-        val out = BufferedWriter(FileWriter("result.html"))
+        val out = BufferedWriter(FileWriter("index.html"))
         val img = ImageIO.read(File("image.jpg"))// args[1]))
-        out.write("<table>")
+        out.write("<table width='100%'>")
         for (y in 0..img.height - 1) {
             out.write("<tr>")
             for (x in 0..img.width - 1) {
