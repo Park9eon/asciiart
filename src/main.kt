@@ -76,7 +76,7 @@ fun colorToHtml(rgb: Int): String {
     } else if (g >= 70.0) { "8"
     } else if (g >= 50.0) { "#"
     } else { "@" }
-    return "<th style='color:rgb($red,$green,$blue); font-size: 0.001em; padding: 0;'>$char</th>".format(color)
+    return "<th style='color:rgb($red,$green,$blue); width: 3px; height: 1px; display: inline-block; padding: 0;'>$char</th>".format(color)
 }
 
 
